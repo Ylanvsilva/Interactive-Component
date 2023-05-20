@@ -84,6 +84,14 @@ body {
 
     color: hsl(216, 12%, 54%);
     background-color: hsl(213, 20%, 18%);
+
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.circle_btn:hover {
+    background-color: hsl(212, 36%, 32%);
+    transition: all 0.2s ease;
 }
 
 .submit {
@@ -101,4 +109,17 @@ body {
 
     border-style: none;
     border-radius: 40px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit:hover {
+    background-color: rgb(255, 78, 47);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.circle_orange {
+    background-color: rgb(230, 168, 54);
 }
